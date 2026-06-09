@@ -18,6 +18,8 @@ public class CorsConfig {
         config.addAllowedOrigin("http://localhost:5174");
         config.addAllowedOrigin("http://localhost:5176");
 
+        config.addAllowedOrigin("https://oa-arena-frontend.vercel.app");
+
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         config.setAllowCredentials(true);
